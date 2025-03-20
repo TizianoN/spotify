@@ -285,7 +285,7 @@ ul {
   #sidebar .nav .link-item:hover,
   #sidebar .nav .link-item.active {
     border-left: 3px solid lime;
-    padding-left: calc(1rem - 5px);
+    padding-left: calc(1rem - 3px);
   }
 
   #sidebar .playlists {
