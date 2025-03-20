@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tiziano Nicolai" />
+    <title>Spotify</title>
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+    <!-- custom style -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="top-content">
+        <!-- SIDEBAR -->
+        <div id="sidebar">
+          <figure class="logo">
+            <img class="logo-extended" src="./img/logo.svg" alt="" />
+            <img class="logo-contracted" src="./img/logo-small.svg" alt="" />
+          </figure>
+          <nav class="nav">
+            <ul>
+              <li class="link-item active">
+                <a href="#" class="link">
+                  <img src="./img/home.svg" alt="" />
+                  <span class="link-text">Home</span>
+                </a>
+              </li>
+
+              <li class="link-item">
+                <a href="#" class="link">
+                  <img src="./img/search.svg" alt="" />
+                  <span class="link-text">Cerca</span>
+                </a>
+              </li>
+
+              <li class="link-item">
+                <a href="#" class="link">
+                  <img src="./img/libreria.svg" alt="" />
+                  <span class="link-text">Libreria</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="playlists">
+            <h3 class="playlist-title">Playlist</h3>
+
+            <div class="button-add-playlist">
+              <div class="square">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+
+              <div>Crea Playlist</div>
+            </div>
+
+            <ul>
+              <li>Playlist 1</li>
+              <li>Playlist 2</li>
+              <li>Playlist 3</li>
+              <li>Playlist 4</li>
+              <li>Playlist 5</li>
+              <li>Playlist 6</li>
+              <li>Playlist 7</li>
+              <li>Playlist 8</li>
+              <li>Playlist 9</li>
+              <li>Playlist 10</li>
+            </ul>
+          </div>
+
+          <div class="user">
+            <div class="download">
+              <img class="download-icon" src="./img/download.svg" alt="" />
+              <div class="download-text">Installa App</div>
+            </div>
+
+            <div class="profile">
+              <div class="profile-pic-container">
+                <img class="profile-pic" src="./img/profile.svg" alt="" />
+              </div>
+              <div class="profile-name">Installa App</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="main-content">
+          <header id="main-content-header"></header>
+          <div id="content"></div>
+        </div>
+      </div>
+      <div id="player"></div>
+    </div>
+  </body>
+</html>
